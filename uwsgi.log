@@ -1,0 +1,399 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov  9 10:36:20 2018] ***
+compiled with version: 5.4.0 20160609 on 09 November 2018 02:25:04
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZ2ze8a1kn16bpuszkrmkcZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/Python1809AXF
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenvs/python3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/Python1809AXF
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41015 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1fc6610
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file Python1809AXF/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4151)
+spawned uWSGI worker 1 (pid: 4152, cores: 4)
+spawned uWSGI worker 2 (pid: 4153, cores: 4)
+spawned uWSGI http 1 (pid: 4154)
+--- no python application found, check your startup logs for errors ---
+[pid: 4152|app: -1|req: -1/1] 113.87.162.199 () {36 vars in 623 bytes} [Fri Nov  9 10:38:29 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4153|app: -1|req: -1/2] 113.87.162.199 () {34 vars in 610 bytes} [Fri Nov  9 10:38:29 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4153|app: -1|req: -1/3] 113.88.15.38 () {38 vars in 652 bytes} [Fri Nov  9 10:38:49 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4152|app: -1|req: -1/4] 113.87.162.199 () {36 vars in 641 bytes} [Fri Nov  9 10:38:49 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4152|app: -1|req: -1/5] 113.88.15.38 () {36 vars in 621 bytes} [Fri Nov  9 10:38:56 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4153|app: -1|req: -1/6] 113.87.162.199 () {34 vars in 610 bytes} [Fri Nov  9 10:38:56 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4153|app: -1|req: -1/7] 113.87.162.199 () {38 vars in 654 bytes} [Fri Nov  9 10:38:58 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4152|app: -1|req: -1/8] 113.87.162.199 () {36 vars in 641 bytes} [Fri Nov  9 10:38:58 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4152|app: -1|req: -1/9] 113.87.162.199 () {38 vars in 654 bytes} [Fri Nov  9 10:40:12 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4153|app: -1|req: -1/10] 113.87.162.199 () {36 vars in 641 bytes} [Fri Nov  9 10:40:12 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4153|app: -1|req: -1/11] 113.87.162.199 () {38 vars in 654 bytes} [Fri Nov  9 10:40:15 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4152|app: -1|req: -1/12] 113.87.162.199 () {36 vars in 641 bytes} [Fri Nov  9 10:40:15 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4152|app: -1|req: -1/13] 113.87.162.199 () {36 vars in 623 bytes} [Fri Nov  9 10:40:40 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4153|app: -1|req: -1/14] 113.87.162.199 () {34 vars in 610 bytes} [Fri Nov  9 10:40:40 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4152|app: -1|req: -1/15] 113.87.162.199 () {38 vars in 653 bytes} [Fri Nov  9 10:42:22 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4153|app: -1|req: -1/16] 113.87.162.199 () {36 vars in 640 bytes} [Fri Nov  9 10:42:23 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4153|app: -1|req: -1/17] 113.87.162.199 () {38 vars in 653 bytes} [Fri Nov  9 10:42:25 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4152|app: -1|req: -1/18] 113.88.15.38 () {36 vars in 638 bytes} [Fri Nov  9 10:42:25 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4152|app: -1|req: -1/19] 113.88.15.38 () {36 vars in 621 bytes} [Fri Nov  9 10:51:20 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4153|app: -1|req: -1/20] 113.88.15.38 () {34 vars in 608 bytes} [Fri Nov  9 10:51:21 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4152|app: -1|req: -1/21] 113.87.162.199 () {36 vars in 623 bytes} [Fri Nov  9 10:54:40 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4153|app: -1|req: -1/22] 113.87.162.199 () {34 vars in 610 bytes} [Fri Nov  9 10:54:40 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov  9 10:55:07 2018] ***
+compiled with version: 5.4.0 20160609 on 09 November 2018 02:25:04
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZ2ze8a1kn16bpuszkrmkcZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/Python1809AXF
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenvs/python3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/Python1809AXF
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8010).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 4152|app: -1|req: -1/23] 113.87.162.199 () {38 vars in 654 bytes} [Fri Nov  9 10:55:18 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4153|app: -1|req: -1/24] 113.87.162.199 () {36 vars in 641 bytes} [Fri Nov  9 10:55:18 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+Fri Nov  9 10:56:53 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  9 10:56:53 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  9 10:56:53 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  9 10:56:53 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov  9 10:56:56 2018] ***
+compiled with version: 5.4.0 20160609 on 09 November 2018 02:25:04
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZ2ze8a1kn16bpuszkrmkcZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/Python1809AXF
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenvs/python3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/Python1809AXF
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45321 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x860610
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x860610 pid: 4248 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4248)
+spawned uWSGI worker 1 (pid: 4250, cores: 4)
+spawned uWSGI worker 2 (pid: 4251, cores: 4)
+spawned uWSGI http 1 (pid: 4252)
+[pid: 4251|app: 0|req: 1/1] 113.88.15.38 () {36 vars in 621 bytes} [Fri Nov  9 02:57:09 2018] GET / => generated 22825 bytes in 33 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+Not Found: /static/base/css/bootstrap.css
+[pid: 4251|app: 0|req: 2/2] 113.87.162.199 () {36 vars in 643 bytes} [Fri Nov  9 02:57:09 2018] GET /static/base/css/bootstrap.css => generated 3741 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 3)
+Not Found: /static/base/css/swiper.css
+[pid: 4251|app: 0|req: 3/3] 113.87.162.199 () {36 vars in 637 bytes} [Fri Nov  9 02:57:09 2018] GET /static/base/css/swiper.css => generated 3732 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 2)
+Not Found: /static/home/css/home.css
+Not Found: /static/base/css/base.css
+Not Found: /static/base/css/reset.css
+[pid: 4250|app: 0|req: 3/4] 113.88.15.38 () {36 vars in 633 bytes} [Fri Nov  9 02:57:09 2018] GET /static/base/css/reset.css => generated 3729 bytes in 20 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4250|app: 0|req: 3/5] 113.88.15.38 () {36 vars in 631 bytes} [Fri Nov  9 02:57:09 2018] GET /static/base/css/base.css => generated 3726 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 3)
+[pid: 4250|app: 0|req: 3/6] 113.87.162.199 () {36 vars in 633 bytes} [Fri Nov  9 02:57:09 2018] GET /static/home/css/home.css => generated 3726 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 2)
+Not Found: /static/base/js/jquery.js
+[pid: 4250|app: 0|req: 4/7] 113.88.15.38 () {36 vars in 616 bytes} [Fri Nov  9 02:57:09 2018] GET /static/base/js/jquery.js => generated 3726 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/base/js/jquery.cookie.js
+[pid: 4251|app: 0|req: 6/8] 113.88.15.38 () {36 vars in 630 bytes} [Fri Nov  9 02:57:09 2018] GET /static/base/js/jquery.cookie.js => generated 3747 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/base/js/bootstrap.js
+[pid: 4251|app: 0|req: 6/9] 113.87.162.199 () {36 vars in 624 bytes} [Fri Nov  9 02:57:09 2018] GET /static/base/js/bootstrap.js => generated 3735 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/base/js/swiper.js
+[pid: 4251|app: 0|req: 6/10] 113.88.15.38 () {36 vars in 616 bytes} [Fri Nov  9 02:57:09 2018] GET /static/base/js/swiper.js => generated 3726 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 3)
+Not Found: /static/base/js/base.js
+Not Found: /static/home/js/home.js
+[pid: 4251|app: 0|req: 7/11] 113.87.162.199 () {36 vars in 614 bytes} [Fri Nov  9 02:57:09 2018] GET /static/base/js/base.js => generated 3720 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 2)
+[pid: 4250|app: 0|req: 5/12] 113.88.15.38 () {36 vars in 612 bytes} [Fri Nov  9 02:57:09 2018] GET /static/home/js/home.js => generated 3720 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/base/js/jquery.cookie.js
+[pid: 4250|app: 0|req: 6/13] 113.87.162.199 () {36 vars in 632 bytes} [Fri Nov  9 02:57:09 2018] GET /static/base/js/jquery.cookie.js => generated 3747 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 3)
+Not Found: /static/base/js/bootstrap.js
+[pid: 4250|app: 0|req: 7/14] 113.88.15.38 () {36 vars in 622 bytes} [Fri Nov  9 02:57:10 2018] GET /static/base/js/bootstrap.js => generated 3735 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 2)
+Not Found: /static/base/js/swiper.js
+[pid: 4250|app: 0|req: 8/15] 113.87.162.199 () {36 vars in 618 bytes} [Fri Nov  9 02:57:10 2018] GET /static/base/js/swiper.js => generated 3726 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/base/js/base.js
+[pid: 4251|app: 0|req: 8/16] 113.87.162.199 () {36 vars in 614 bytes} [Fri Nov  9 02:57:10 2018] GET /static/base/js/base.js => generated 3720 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/home/js/home.js
+[pid: 4251|app: 0|req: 9/17] 113.87.162.199 () {36 vars in 614 bytes} [Fri Nov  9 02:57:10 2018] GET /static/home/js/home.js => generated 3720 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 4251|app: 0|req: 10/18] 113.87.162.199 () {34 vars in 610 bytes} [Fri Nov  9 02:57:10 2018] GET /favicon.ico => generated 3687 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 3)
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 4251|app: 0|req: 11/19] 93.174.93.136 () {28 vars in 427 bytes} [Fri Nov  9 03:02:51 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 1727 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 2)
+[pid: 4251|app: 0|req: 12/20] 113.88.15.38 () {36 vars in 620 bytes} [Fri Nov  9 03:16:01 2018] GET / => generated 22825 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+Not Found: /static/base/css/bootstrap.css
+[pid: 4250|app: 0|req: 9/21] 113.87.162.199 () {36 vars in 642 bytes} [Fri Nov  9 03:16:01 2018] GET /static/base/css/bootstrap.css => generated 3741 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/base/css/swiper.css
+Not Found: /static/base/css/base.css
+[pid: 4250|app: 0|req: 12/22] 113.87.162.199 () {36 vars in 636 bytes} [Fri Nov  9 03:16:01 2018] GET /static/base/css/swiper.css => generated 3732 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 3)
+Not Found: /static/base/css/reset.css
+[pid: 4250|app: 0|req: 12/23] 113.87.162.199 () {36 vars in 634 bytes} [Fri Nov  9 03:16:01 2018] GET /static/base/css/reset.css => generated 3729 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 2)
+[pid: 4250|app: 0|req: 12/24] 113.87.162.199 () {36 vars in 632 bytes} [Fri Nov  9 03:16:01 2018] GET /static/base/css/base.css => generated 3726 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/home/css/home.css
+[pid: 4251|app: 0|req: 13/25] 113.88.15.38 () {36 vars in 630 bytes} [Fri Nov  9 03:16:01 2018] GET /static/home/css/home.css => generated 3726 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/base/js/jquery.cookie.js
+Not Found: /static/base/js/bootstrap.js
+[pid: 4250|app: 0|req: 13/26] 113.87.162.199 () {36 vars in 623 bytes} [Fri Nov  9 03:16:01 2018] GET /static/base/js/bootstrap.js => generated 3735 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4251|app: 0|req: 14/27] 113.87.162.199 () {36 vars in 631 bytes} [Fri Nov  9 03:16:01 2018] GET /static/base/js/jquery.cookie.js => generated 3747 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 3)
+Not Found: /static/base/js/swiper.js
+Not Found: /static/base/js/base.js
+[pid: 4250|app: 0|req: 14/28] 113.87.162.199 () {36 vars in 617 bytes} [Fri Nov  9 03:16:01 2018] GET /static/base/js/swiper.js => generated 3726 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 3)
+[pid: 4251|app: 0|req: 15/29] 113.88.15.38 () {36 vars in 611 bytes} [Fri Nov  9 03:16:01 2018] GET /static/base/js/base.js => generated 3720 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 2)
+Not Found: /static/base/js/jquery.js
+[pid: 4250|app: 0|req: 15/30] 113.87.162.199 () {36 vars in 617 bytes} [Fri Nov  9 03:16:01 2018] GET /static/base/js/jquery.js => generated 3726 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 2)
+Not Found: /static/home/js/home.js
+[pid: 4250|app: 0|req: 16/31] 113.87.162.199 () {36 vars in 613 bytes} [Fri Nov  9 03:16:01 2018] GET /static/home/js/home.js => generated 3720 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/base/js/jquery.cookie.js
+[pid: 4251|app: 0|req: 16/32] 113.88.15.38 () {36 vars in 630 bytes} [Fri Nov  9 03:16:02 2018] GET /static/base/js/jquery.cookie.js => generated 3747 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/base/js/bootstrap.js
+[pid: 4250|app: 0|req: 17/33] 113.87.162.199 () {36 vars in 624 bytes} [Fri Nov  9 03:16:02 2018] GET /static/base/js/bootstrap.js => generated 3735 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/base/js/swiper.js
+[pid: 4250|app: 0|req: 18/34] 113.87.162.199 () {36 vars in 618 bytes} [Fri Nov  9 03:16:02 2018] GET /static/base/js/swiper.js => generated 3726 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 3)
+Not Found: /static/base/js/base.js
+[pid: 4250|app: 0|req: 19/35] 113.87.162.199 () {36 vars in 614 bytes} [Fri Nov  9 03:16:02 2018] GET /static/base/js/base.js => generated 3720 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 2)
+Not Found: /static/home/js/home.js
+[pid: 4250|app: 0|req: 20/36] 113.87.162.199 () {36 vars in 614 bytes} [Fri Nov  9 03:16:02 2018] GET /static/home/js/home.js => generated 3720 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 4251|app: 0|req: 17/37] 113.88.15.38 () {34 vars in 608 bytes} [Fri Nov  9 03:16:02 2018] GET /favicon.ico => generated 3687 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Fri Nov  9 03:25:51 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  9 03:25:51 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov  9 11:28:30 2018] ***
+compiled with version: 5.4.0 20160609 on 09 November 2018 02:25:04
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZ2ze8a1kn16bpuszkrmkcZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/Python1809AXF
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenvs/python3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/Python1809AXF
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34808 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x20ee620
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x20ee620 pid: 4434 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4434)
+spawned uWSGI worker 1 (pid: 4436, cores: 4)
+spawned uWSGI worker 2 (pid: 4437, cores: 4)
+spawned uWSGI http 1 (pid: 4438)
+Fri Nov  9 03:30:31 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  9 03:30:31 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  9 03:30:31 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  9 03:30:31 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov  9 11:30:37 2018] ***
+compiled with version: 5.4.0 20160609 on 09 November 2018 02:25:04
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZ2ze8a1kn16bpuszkrmkcZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/Python1809AXF
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenvs/python3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/Python1809AXF
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38940 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1751620
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1751620 pid: 4450 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4450)
+spawned uWSGI worker 1 (pid: 4452, cores: 4)
+spawned uWSGI worker 2 (pid: 4453, cores: 4)
+spawned uWSGI http 1 (pid: 4454)
+Fri Nov  9 03:32:18 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  9 03:32:18 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  9 03:32:18 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  9 03:32:18 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov  9 11:32:27 2018] ***
+compiled with version: 5.4.0 20160609 on 09 November 2018 02:25:04
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZ2ze8a1kn16bpuszkrmkcZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/Python1809AXF
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenvs/python3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/Python1809AXF
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36287 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1598620
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1598620 pid: 4466 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4466)
+spawned uWSGI worker 1 (pid: 4468, cores: 4)
+spawned uWSGI worker 2 (pid: 4469, cores: 4)
+spawned uWSGI http 1 (pid: 4470)
+Fri Nov  9 03:34:19 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  9 03:34:19 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov  9 11:44:26 2018] ***
+compiled with version: 5.4.0 20160609 on 09 November 2018 02:25:04
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZ2ze8a1kn16bpuszkrmkcZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/Python1809AXF
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenvs/python3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/Python1809AXF
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37523 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1a52610
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1a52610 pid: 4551 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4551)
+spawned uWSGI worker 1 (pid: 4553, cores: 4)
+spawned uWSGI worker 2 (pid: 4554, cores: 4)
+spawned uWSGI http 1 (pid: 4555)
